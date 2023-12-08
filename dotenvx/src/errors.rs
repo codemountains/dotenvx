@@ -41,7 +41,6 @@ impl fmt::Display for Error {
                 "Error parsing line: '{}', error at line index: {}",
                 line, error_index
             ),
-            _ => unreachable!(),
         }
     }
 }
