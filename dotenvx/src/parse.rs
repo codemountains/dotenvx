@@ -268,7 +268,7 @@ fn apply_substitution(
             .get(substitution_name)
             .unwrap_or(&None)
             .to_owned();
-        output.push_str(&stored_value.unwrap_or_else(String::new));
+        output.push_str(&stored_value.unwrap_or_default());
     };
 }
 
