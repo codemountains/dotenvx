@@ -18,4 +18,4 @@ proc-macro2 = "1"
 quote = "1"
 syn = "2.0.37"
 proc-macro-hack = "0.5"
-dotenvx = { version = "0.0.1", path = "../dotenvx" }
+dotenvx = { version = "0.0.2", path = "../dotenvx" }

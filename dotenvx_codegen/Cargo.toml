@@ -11,5 +11,5 @@ repository = "https://github.com/codemountains/dotenvx"
 edition = "2018"
 
 [dependencies]
-dotenvx_codegen_implementation = { version = "0.0.1", path = "../dotenvx_codegen_implementation" }
+dotenvx_codegen_implementation = { version = "0.0.2", path = "../dotenvx_codegen_implementation" }
 proc-macro-hack = "0.5"
