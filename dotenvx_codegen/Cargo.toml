@@ -1,6 +1,6 @@
 [package]
 name = "dotenvx_codegen"
-version = "0.0.2"
+version = "0.0.3"
 authors = ["Kazuno Fukuda <codemountains@gmail.com>"]
 description = "A `dotenv` implementation for Rust"
 readme = "../README.md"
@@ -11,5 +11,5 @@ repository = "https://github.com/codemountains/dotenvx"
 edition = "2018"
 
 [dependencies]
-dotenvx_codegen_implementation = { version = "0.0.2", path = "../dotenvx_codegen_implementation" }
+dotenvx_codegen_implementation = { version = "0.0.3", path = "../dotenvx_codegen_implementation" }
 proc-macro-hack = "0.5"
