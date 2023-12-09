@@ -11,7 +11,7 @@ keywords = ["environment", "env", "dotenv", "settings", "config"]
 license = "MIT"
 homepage = "https://github.com/codemountains/dotenvx"
 repository = "https://github.com/codemountains/dotenvx"
-edition = "2018"
+edition = "2021"
 
 [dependencies]
 proc-macro2 = "1"
