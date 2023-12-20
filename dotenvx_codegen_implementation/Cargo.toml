@@ -3,7 +3,7 @@ proc-macro = true
 
 [package]
 name = "dotenvx_codegen_implementation"
-version = "0.0.2"
+version = "0.0.3"
 authors = ["Kazuno Fukuda <codemountains@gmail.com>"]
 description = "A `dotenv` implementation for Rust"
 readme = "../README.md"
@@ -11,11 +11,12 @@ keywords = ["environment", "env", "dotenv", "settings", "config"]
 license = "MIT"
 homepage = "https://github.com/codemountains/dotenvx"
 repository = "https://github.com/codemountains/dotenvx"
-edition = "2018"
+edition = "2021"
+
 
 [dependencies]
 proc-macro2 = "1"
 quote = "1"
 syn = "2.0.37"
 proc-macro-hack = "0.5"
-dotenvx = { version = "0.0.1", path = "../dotenvx" }
+dotenvx = { version = "0.0.3", path = "../dotenvx" }

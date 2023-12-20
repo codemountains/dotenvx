@@ -65,7 +65,8 @@ impl<'a> LineParser<'a> {
             return Ok(Some((key, String::new())));
         }
 
-        let parsed_value = parse_value(self.line, &mut self.substitution_data)?;
+
+        let parsed_value = parse_value(self.line, self.substitution_data)?;
         self.substitution_data
             .insert(key.clone(), Some(parsed_value.clone()));
 
@@ -268,7 +269,7 @@ fn apply_substitution(
             .get(substitution_name)
             .unwrap_or(&None)
             .to_owned();
-        output.push_str(&stored_value.unwrap_or_else(String::new));
+        output.push_str(&stored_value.unwrap_or_default());
     };
 }
 
