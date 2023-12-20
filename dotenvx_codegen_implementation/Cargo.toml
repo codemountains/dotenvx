@@ -13,6 +13,7 @@ homepage = "https://github.com/codemountains/dotenvx"
 repository = "https://github.com/codemountains/dotenvx"
 edition = "2021"
 
+
 [dependencies]
 proc-macro2 = "1"
 quote = "1"
